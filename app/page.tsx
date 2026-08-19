@@ -165,6 +165,64 @@ export default function LandingPage() {
               <RadarNodeMap />
             </div>
           </div>
+
+          {/* Hero 5-Stat Bar */}
+          <div className="mt-16 pt-8 grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-6 border-t border-white/10">
+            <div className="flex items-center gap-3">
+              <div className="w-10 h-10 rounded-full bg-emerald-500/10 border border-emerald-500/30 flex items-center justify-center flex-shrink-0">
+                <ShieldCheck size={20} color="var(--color-mint)" />
+              </div>
+              <div>
+                <div className="stat-value text-lg font-bold text-white">2.45M+</div>
+                <div className="text-xs font-semibold text-gray-200">Credits Issued</div>
+                <div className="text-[11px] text-gray-400">Tonnes of CO₂e</div>
+              </div>
+            </div>
+
+            <div className="flex items-center gap-3">
+              <div className="w-10 h-10 rounded-full bg-emerald-500/10 border border-emerald-500/30 flex items-center justify-center flex-shrink-0">
+                <BarChart3 size={20} color="var(--color-mint)" />
+              </div>
+              <div>
+                <div className="stat-value text-lg font-bold text-white">850+</div>
+                <div className="text-xs font-semibold text-gray-200">Projects Verified</div>
+                <div className="text-[11px] text-gray-400">Across 26+ countries</div>
+              </div>
+            </div>
+
+            <div className="flex items-center gap-3">
+              <div className="w-10 h-10 rounded-full bg-emerald-500/10 border border-emerald-500/30 flex items-center justify-center flex-shrink-0">
+                <Database size={20} color="var(--color-mint)" />
+              </div>
+              <div>
+                <div className="stat-value text-lg font-bold text-white">320+</div>
+                <div className="text-xs font-semibold text-gray-200">Organizations</div>
+                <div className="text-[11px] text-gray-400">Building a sustainable future</div>
+              </div>
+            </div>
+
+            <div className="flex items-center gap-3">
+              <div className="w-10 h-10 rounded-full bg-emerald-500/10 border border-emerald-500/30 flex items-center justify-center flex-shrink-0">
+                <Link2 size={20} color="var(--color-mint)" />
+              </div>
+              <div>
+                <div className="stat-value text-lg font-bold text-white">1.12M+</div>
+                <div className="text-xs font-semibold text-gray-200">Credits Transferred</div>
+                <div className="text-[11px] text-gray-400">On-chain &amp; transparent</div>
+              </div>
+            </div>
+
+            <div className="flex items-center gap-3">
+              <div className="w-10 h-10 rounded-full bg-emerald-500/10 border border-emerald-500/30 flex items-center justify-center flex-shrink-0">
+                <Zap size={20} color="var(--color-mint)" />
+              </div>
+              <div>
+                <div className="stat-value text-lg font-bold text-white">980K+</div>
+                <div className="text-xs font-semibold text-gray-200">Credits Retired</div>
+                <div className="text-[11px] text-gray-400">Real impact delivered</div>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
 
@@ -487,6 +545,91 @@ export default function LandingPage() {
                     </span>
                   </div>
                 ))}
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* ── ABOUT SECTION (PURPOSE, WORKING & FUNCTIONING) ──────── */}
+      <section id="about" className="section-pad border-t border-white/10" style={{ background: 'rgba(9, 13, 20, 0.7)' }}>
+        <div className="container-max flex flex-col gap-12">
+          {/* Header */}
+          <div className="flex flex-col gap-4 max-w-3xl">
+            <MonoLabel color="mint">05 ABOUT GREENLEDGER / CODE BLOODED</MonoLabel>
+            <h2
+              className="font-bold leading-tight tracking-tight text-white"
+              style={{ fontSize: 'clamp(32px, 4vw, 44px)', fontFamily: 'var(--font-display)' }}
+            >
+              Purpose, Working &amp; Platform Architecture
+            </h2>
+            <p className="text-base text-gray-300 leading-relaxed">
+              Code Blooded (GreenLedger) is an enterprise-grade Carbon Credit Trust &amp; Verification Platform designed to eradicate greenwashing and double-counting in voluntary carbon markets.
+            </p>
+          </div>
+
+          {/* 3 Core Pillar Cards: Purpose, Working, Functioning */}
+          <div className="grid lg:grid-cols-3 gap-6">
+            {/* Pillar 1: Purpose */}
+            <div className="card p-6 flex flex-col gap-4 border-l-4 border-l-emerald-500">
+              <div className="flex items-center justify-between">
+                <span className="pill pill-mint text-[10px]">CORE MISSION</span>
+                <ShieldCheck size={20} color="var(--color-mint)" />
+              </div>
+              <h3 className="text-lg font-bold text-white">Platform Purpose</h3>
+              <p className="text-sm text-gray-300 leading-relaxed">
+                Traditional carbon markets suffer from scattered documentation, double-selling, and unverified offset claims. Code Blooded bridges physical orbital evidence with blockchain ledgers—ensuring every carbon credit represents verified, permanent environmental impact.
+              </p>
+            </div>
+
+            {/* Pillar 2: Working & Pipeline */}
+            <div className="card p-6 flex flex-col gap-4 border-l-4 border-l-cyan-500">
+              <div className="flex items-center justify-between">
+                <span className="pill pill-cyan text-[10px]">TECHNICAL PIPELINE</span>
+                <Satellite size={20} color="var(--color-cyan)" />
+              </div>
+              <h3 className="text-lg font-bold text-white">How It Works</h3>
+              <p className="text-sm text-gray-300 leading-relaxed">
+                Multitemporal satellite scenes capture vegetation and canopy deltas over time. AI anomaly detection flags double-count risks, while accredited verifiers execute methodology sign-offs. Verified credits are then minted on-chain with immutable digital passports attached.
+              </p>
+            </div>
+
+            {/* Pillar 3: Core Functionality */}
+            <div className="card p-6 flex flex-col gap-4 border-l-4 border-l-amber-500">
+              <div className="flex items-center justify-between">
+                <span className="pill pill-amber text-[10px]">ENTERPRISE SUITE</span>
+                <BarChart3 size={20} color="var(--color-amber)" />
+              </div>
+              <h3 className="text-lg font-bold text-white">Platform Functioning</h3>
+              <p className="text-sm text-gray-300 leading-relaxed">
+                Corporations browse transparent credits on the Marketplace with live Rupee pricing (₹), manage annual emission reduction targets on the B2B Company Dashboard (/dashboard), and inspect full audit trails via public Digital Passports (/passport/[id]).
+              </p>
+            </div>
+          </div>
+
+          {/* Breakdown Table of Efficacy */}
+          <div className="card p-6 flex flex-col gap-4">
+            <MonoLabel color="tertiary">PLATFORM FUNCTIONING &amp; MODULE SUMMARY</MonoLabel>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+              <div className="p-4 rounded-xl bg-gray-900/80 border border-white/10 flex flex-col gap-2">
+                <div className="text-sm font-bold text-emerald-400">1. Verified Marketplace</div>
+                <p className="text-xs text-gray-300 leading-relaxed">
+                  Real-time credit discovery featuring INR pricing, evidence scores (0–100), regional filtering, and instant purchase simulations with instant ledger references.
+                </p>
+              </div>
+
+              <div className="p-4 rounded-xl bg-gray-900/80 border border-white/10 flex flex-col gap-2">
+                <div className="text-sm font-bold text-cyan-400">2. Corporate B2B Dashboard</div>
+                <p className="text-xs text-gray-300 leading-relaxed">
+                  Scoped enterprise portal for tracking carbon purchases, offset target completion gauges, monthly trajectory charts, and audit-ready transaction ledgers.
+                </p>
+              </div>
+
+              <div className="p-4 rounded-xl bg-gray-900/80 border border-white/10 flex flex-col gap-2">
+                <div className="text-sm font-bold text-amber-400">3. Digital Carbon Passport</div>
+                <p className="text-xs text-gray-300 leading-relaxed">
+                  Tamper-evident project passports providing interactive before/after satellite sliders, verifier sign-offs, batch distribution bars, and on-chain hash verification.
+                </p>
               </div>
             </div>
           </div>

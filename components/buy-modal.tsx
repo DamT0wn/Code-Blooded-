@@ -120,7 +120,7 @@ export function BuyModal({ project, onClose }: BuyModalProps) {
               <div className="flex justify-between text-sm">
                 <span style={{ color: 'var(--color-text-secondary)' }}>Unit price</span>
                 <span style={{ color: 'var(--color-text-primary)' }}>
-                  ${project.pricePerCredit.toFixed(2)} / tCO₂e
+                  ₹{project.pricePerCredit.toLocaleString('en-IN')} / tCO₂e
                 </span>
               </div>
               <div className="flex justify-between text-sm">
@@ -133,7 +133,7 @@ export function BuyModal({ project, onClose }: BuyModalProps) {
               >
                 <span className="font-semibold" style={{ color: 'var(--color-text-primary)' }}>Total</span>
                 <span className="stat-value font-bold text-lg" style={{ color: 'var(--color-mint)' }}>
-                  ${Number(total).toLocaleString(undefined, { minimumFractionDigits: 2 })}
+                  ₹{Number(total).toLocaleString('en-IN')}
                 </span>
               </div>
             </div>

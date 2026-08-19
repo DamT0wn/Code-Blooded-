@@ -35,6 +35,7 @@ export interface Project {
   verifiedDate: string;
   trustScore: number;       // 0–100 composite
   tags: string[];
+  marketRateRange?: string;
 }
 
 export interface EvidenceReport {
@@ -92,7 +93,7 @@ export const PROJECTS: Project[] = [
     id: 'CC-IND-00291',
     slug: 'sundarbans-mangrove-restoration',
     name: 'Sundarbans Mangrove Restoration',
-    category: 'FOREST',
+    category: 'BLUE_CARBON',
     status: 'VERIFIED',
     location: 'West Bengal, India',
     region: 'Asia',
@@ -103,8 +104,8 @@ export const PROJECTS: Project[] = [
     creditsAvailable: 14200,
     creditsIssued: 22800,
     creditsRetired: 8600,
-    pricePerCredit: 18.5,
-    currency: 'USD',
+    pricePerCredit: 1550,
+    currency: 'INR',
     ownerOrg: 'GreenSeal Ventures',
     ownerWallet: '0x3f7E...9c14',
     ownerVerified: true,
@@ -113,6 +114,32 @@ export const PROJECTS: Project[] = [
     verifiedDate: '2023-04-02',
     trustScore: 91,
     tags: ['blue-carbon', 'mangrove', 'coastal', 'India'],
+  },
+  {
+    id: 'CC-AUS-00072',
+    slug: 'pilbara-soil-carbon',
+    name: 'Pilbara Regenerative Agriculture',
+    category: 'SOIL',
+    status: 'VERIFIED',
+    location: 'Pilbara, Western Australia',
+    region: 'Oceania',
+    description:
+      'Soil carbon sequestration through holistic grazing management across 1.2M ha of pastoral land. Third-party verified with bi-annual soil core sampling.',
+    metaLine: '1.2M ha pastoral · holistic grazing',
+    evidenceScore: 89,
+    creditsAvailable: 7100,
+    creditsIssued: 12200,
+    creditsRetired: 5100,
+    pricePerCredit: 2750,
+    currency: 'INR',
+    ownerOrg: 'OutbackCarbon Pty',
+    ownerWallet: '0x4dF9...7b38',
+    ownerVerified: true,
+    txRef: '0x4df97b38c2a1e4b7d9f2c5a8e1b4d7f9c2a5e8b1d4f7c9a2e5b8d1f4c7a9e2b5',
+    issuedDate: '2023-05-10',
+    verifiedDate: '2023-05-28',
+    trustScore: 89,
+    tags: ['soil-carbon', 'agriculture', 'Australia'],
   },
   {
     id: 'CC-IND-00447',
@@ -129,8 +156,8 @@ export const PROJECTS: Project[] = [
     creditsAvailable: 9800,
     creditsIssued: 18400,
     creditsRetired: 8600,
-    pricePerCredit: 12.0,
-    currency: 'USD',
+    pricePerCredit: 1200,
+    currency: 'INR',
     ownerOrg: 'SolarPath India',
     ownerWallet: '0x7eA1...b82F',
     ownerVerified: true,
@@ -139,6 +166,7 @@ export const PROJECTS: Project[] = [
     verifiedDate: '2023-06-18',
     trustScore: 87,
     tags: ['solar', 'renewable', 'grid', 'India'],
+    marketRateRange: 'Average India market rate: ₹900 – ₹1,400 per tCO₂e',
   },
   {
     id: 'CC-KEN-00113',
@@ -155,8 +183,8 @@ export const PROJECTS: Project[] = [
     creditsAvailable: 6400,
     creditsIssued: 11000,
     creditsRetired: 4600,
-    pricePerCredit: 22.0,
-    currency: 'USD',
+    pricePerCredit: 1800,
+    currency: 'INR',
     ownerOrg: 'AfriCarbon Trust',
     ownerWallet: '0x2cB3...d47A',
     ownerVerified: true,
@@ -165,6 +193,7 @@ export const PROJECTS: Project[] = [
     verifiedDate: '2023-02-08',
     trustScore: 83,
     tags: ['reforestation', 'community', 'Africa', 'Gold Standard'],
+    marketRateRange: 'Average India market rate: ₹1,200 – ₹2,200 per tCO₂e',
   },
   {
     id: 'CC-BRA-00508',
@@ -182,7 +211,7 @@ export const PROJECTS: Project[] = [
     creditsIssued: 54000,
     creditsRetired: 23000,
     pricePerCredit: 8.5,
-    currency: 'USD',
+    currency: 'INR',
     ownerOrg: 'Floresta Verde S.A.',
     ownerWallet: '0x9fC8...e201',
     ownerVerified: false,
@@ -191,32 +220,6 @@ export const PROJECTS: Project[] = [
     verifiedDate: '2023-09-15',
     trustScore: 64,
     tags: ['REDD+', 'Amazon', 'avoided-deforestation', 'Brazil'],
-  },
-  {
-    id: 'CC-AUS-00072',
-    slug: 'pilbara-soil-carbon',
-    name: 'Pilbara Regenerative Agriculture',
-    category: 'SOIL',
-    status: 'VERIFIED',
-    location: 'Pilbara, Western Australia',
-    region: 'Oceania',
-    description:
-      'Soil carbon sequestration through holistic grazing management across 1.2M ha of pastoral land. Third-party verified with bi-annual soil core sampling.',
-    metaLine: '1.2M ha pastoral · holistic grazing',
-    evidenceScore: 89,
-    creditsAvailable: 7100,
-    creditsIssued: 12200,
-    creditsRetired: 5100,
-    pricePerCredit: 31.0,
-    currency: 'USD',
-    ownerOrg: 'OutbackCarbon Pty',
-    ownerWallet: '0x4dF9...7b38',
-    ownerVerified: true,
-    txRef: '0x4df97b38c2a1e4b7d9f2c5a8e1b4d7f9c2a5e8b1d4f7c9a2e5b8d1f4c7a9e2b5',
-    issuedDate: '2023-05-10',
-    verifiedDate: '2023-05-28',
-    trustScore: 89,
-    tags: ['soil-carbon', 'agriculture', 'Australia'],
   },
   {
     id: 'CC-CHI-00334',
@@ -234,7 +237,7 @@ export const PROJECTS: Project[] = [
     creditsIssued: 38000,
     creditsRetired: 18500,
     pricePerCredit: 6.75,
-    currency: 'USD',
+    currency: 'INR',
     ownerOrg: 'VientoLimpio SpA',
     ownerWallet: '0x6aE5...c912',
     ownerVerified: true,
@@ -431,11 +434,11 @@ export const DASHBOARD_STATS = {
 
 // ─── Helpers ────────────────────────────────────────────────
 export function getProjectById(id: string): Project | undefined {
-  return PROJECTS.find((p) => p.id === id);
+  return PROJECTS.find((p) => p.id === id || p.slug === id);
 }
 
 export function getProjectBySlug(slug: string): Project | undefined {
-  return PROJECTS.find((p) => p.slug === slug);
+  return PROJECTS.find((p) => p.slug === slug || p.id === slug);
 }
 
 export function getEvidenceReport(projectId: string): EvidenceReport | undefined {
