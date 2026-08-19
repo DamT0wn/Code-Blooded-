@@ -7,8 +7,9 @@ import { useState } from 'react';
 
 const NAV_LINKS = [
   { label: 'Marketplace', href: '/marketplace' },
+  { label: 'Dashboard', href: '/dashboard' },
   { label: 'Docs', href: '#docs' },
-  { label: 'About', href: '#about' },
+  { label: 'About', href: '/about' },
 ];
 
 export function AppNav() {
@@ -161,7 +162,7 @@ function AppFooter() {
         </span>
         <div className="flex items-center gap-6">
           <span className="font-mono-label" style={{ color: 'var(--color-text-tertiary)', fontSize: 10 }}>
-            / TEAM CODE BLOODED — Naitik Jangid · Rudra Pratap Singh · Pulkit Chaudhary · Utkarsh Kumar Rai
+            CODE BLOODED PLATFORM
           </span>
           <span className="font-mono-label" style={{ color: 'var(--color-text-tertiary)', fontSize: 10 }}>
             v0.1.0 · 2026

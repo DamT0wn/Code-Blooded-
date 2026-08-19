@@ -107,7 +107,7 @@ export function ProjectCard({ project, index = 0 }: ProjectCardProps) {
           </div>
           <div className="text-right">
             <div className="stat-value text-base font-bold" style={{ color: 'var(--color-mint)' }}>
-              ${project.pricePerCredit.toFixed(2)}
+              ₹{project.pricePerCredit.toLocaleString('en-IN')}
             </div>
             <div className="font-mono-label" style={{ color: 'var(--color-text-tertiary)', fontSize: 9 }}>
               PER tCO₂e
@@ -141,6 +141,17 @@ export function ProjectCard({ project, index = 0 }: ProjectCardProps) {
             Buy Credits
           </button>
         </div>
+
+        {/* Market Rate Footer */}
+        {project.marketRateRange && (
+          <div
+            className="flex items-center gap-1 pt-1.5"
+            style={{ color: 'var(--color-text-tertiary)', fontSize: 11 }}
+          >
+            <span>{project.marketRateRange}</span>
+            <span style={{ fontSize: 10 }}>ⓘ</span>
+          </div>
+        )}
       </div>
     </div>
   );

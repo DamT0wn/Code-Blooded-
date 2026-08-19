@@ -48,7 +48,7 @@ export function EvidenceScoreBar({
           className="font-mono-label"
           style={{ color: 'var(--color-text-tertiary)', fontSize: 10 }}
         >
-          {label}
+          {label.toUpperCase()}
         </span>
         {showScore && (
           <span
