@@ -112,7 +112,7 @@ export default function LandingPage() {
                   className="h-px flex-1 max-w-8"
                   style={{ background: 'var(--color-mint)', opacity: 0.6 }}
                 />
-                <MonoLabel color="mint">01 CARBON · BLOCKCHAIN · TRUST</MonoLabel>
+                <MonoLabel color="mint">CARBON · BLOCKCHAIN · TRUST</MonoLabel>
               </div>
 
               {/* H1 — Poppins with Source Serif 4 italic accent */}
@@ -120,8 +120,8 @@ export default function LandingPage() {
                 className="font-bold leading-[0.95] tracking-tight"
                 style={{ fontSize: 'clamp(52px, 7vw, 80px)', fontFamily: 'var(--font-display)' }}
               >
-                <span style={{ color: 'var(--color-text-primary)', display: 'block' }}>Code</span>
-                <span className="text-gradient-mint-cyan" style={{ display: 'block' }}>Blooded.</span>
+                <span style={{ color: 'var(--color-text-primary)', display: 'block' }}>Verdant</span>
+                <span className="text-gradient-mint-cyan" style={{ display: 'block' }}>Ledger.</span>
               </h1>
 
               {/* Subhead */}
@@ -232,7 +232,6 @@ export default function LandingPage() {
           <div className="flex flex-col gap-12">
             {/* Header */}
             <div className="flex flex-col gap-4 max-w-2xl">
-              <MonoLabel color="tertiary">02 THE TRUST GAP</MonoLabel>
               <h2
                 className="font-bold leading-tight tracking-tight"
                 style={{ fontSize: 'clamp(32px, 4vw, 48px)', fontFamily: 'var(--font-display)' }}
@@ -302,7 +301,6 @@ export default function LandingPage() {
           <div className="flex flex-col gap-12">
             {/* Header */}
             <div className="flex flex-col gap-4 max-w-2xl">
-              <MonoLabel color="tertiary">03 OUR SOLUTION</MonoLabel>
               <h2
                 className="font-bold leading-tight tracking-tight"
                 style={{ fontSize: 'clamp(32px, 4vw, 48px)', fontFamily: 'var(--font-display)' }}
@@ -499,10 +497,10 @@ export default function LandingPage() {
           </h2>
 
           <div className="grid lg:grid-cols-2 gap-6">
-            {/* Why Code Blooded */}
+            {/* Why Verdant Ledger */}
             <div className="card p-6 flex flex-col gap-4">
               <div className="font-mono-label" style={{ color: 'var(--color-text-tertiary)' }}>
-                WHY CODE BLOODED
+                WHY VERDANT LEDGER
               </div>
               <div className="flex flex-col gap-3">
                 {WHY_BULLETS.map((bullet, i) => (
@@ -556,7 +554,7 @@ export default function LandingPage() {
         <div className="container-max flex flex-col gap-12">
           {/* Header */}
           <div className="flex flex-col gap-4 max-w-3xl">
-            <MonoLabel color="mint">05 ABOUT GREENLEDGER / CODE BLOODED</MonoLabel>
+            <MonoLabel color="mint">ABOUT VERDANT LEDGER</MonoLabel>
             <h2
               className="font-bold leading-tight tracking-tight text-white"
               style={{ fontSize: 'clamp(32px, 4vw, 44px)', fontFamily: 'var(--font-display)' }}
@@ -564,7 +562,7 @@ export default function LandingPage() {
               Purpose, Working &amp; Platform Architecture
             </h2>
             <p className="text-base text-gray-300 leading-relaxed">
-              Code Blooded (GreenLedger) is an enterprise-grade Carbon Credit Trust &amp; Verification Platform designed to eradicate greenwashing and double-counting in voluntary carbon markets.
+              Verdant Ledger is an enterprise-grade Carbon Credit Trust &amp; Verification Platform designed to eradicate greenwashing and double-counting in voluntary carbon markets.
             </p>
           </div>
 
@@ -578,7 +576,7 @@ export default function LandingPage() {
               </div>
               <h3 className="text-lg font-bold text-white">Platform Purpose</h3>
               <p className="text-sm text-gray-300 leading-relaxed">
-                Traditional carbon markets suffer from scattered documentation, double-selling, and unverified offset claims. Code Blooded bridges physical orbital evidence with blockchain ledgers—ensuring every carbon credit represents verified, permanent environmental impact.
+                Traditional carbon markets suffer from scattered documentation, double-selling, and unverified offset claims. Verdant Ledger bridges physical orbital evidence with blockchain ledgers—ensuring every carbon credit represents verified, permanent environmental impact.
               </p>
             </div>
 
@@ -611,21 +609,21 @@ export default function LandingPage() {
           <div className="card p-6 flex flex-col gap-4">
             <MonoLabel color="tertiary">PLATFORM FUNCTIONING &amp; MODULE SUMMARY</MonoLabel>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-              <div className="p-4 rounded-xl bg-gray-900/80 border border-white/10 flex flex-col gap-2">
+              <div className="p-4 rounded-xl bg-gray-900/45 backdrop-blur-md border border-white/10 flex flex-col gap-2">
                 <div className="text-sm font-bold text-emerald-400">1. Verified Marketplace</div>
                 <p className="text-xs text-gray-300 leading-relaxed">
                   Real-time credit discovery featuring INR pricing, evidence scores (0–100), regional filtering, and instant purchase simulations with instant ledger references.
                 </p>
               </div>
 
-              <div className="p-4 rounded-xl bg-gray-900/80 border border-white/10 flex flex-col gap-2">
+              <div className="p-4 rounded-xl bg-gray-900/45 backdrop-blur-md border border-white/10 flex flex-col gap-2">
                 <div className="text-sm font-bold text-cyan-400">2. Corporate B2B Dashboard</div>
                 <p className="text-xs text-gray-300 leading-relaxed">
                   Scoped enterprise portal for tracking carbon purchases, offset target completion gauges, monthly trajectory charts, and audit-ready transaction ledgers.
                 </p>
               </div>
 
-              <div className="p-4 rounded-xl bg-gray-900/80 border border-white/10 flex flex-col gap-2">
+              <div className="p-4 rounded-xl bg-gray-900/45 backdrop-blur-md border border-white/10 flex flex-col gap-2">
                 <div className="text-sm font-bold text-amber-400">3. Digital Carbon Passport</div>
                 <p className="text-xs text-gray-300 leading-relaxed">
                   Tamper-evident project passports providing interactive before/after satellite sliders, verifier sign-offs, batch distribution bars, and on-chain hash verification.
@@ -643,8 +641,8 @@ export default function LandingPage() {
               className="font-bold tracking-tight"
               style={{ fontSize: 'clamp(28px, 3vw, 40px)', fontFamily: 'var(--font-display)' }}
             >
-              Code{' '}
-              <span className="text-gradient-mint-cyan">Blooded.</span>
+              Verdant{' '}
+              <span className="text-gradient-mint-cyan">Ledger.</span>
             </h3>
             <p
               className="text-base font-medium max-w-sm"

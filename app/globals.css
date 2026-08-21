@@ -1,15 +1,15 @@
 @import "tailwindcss";
 
 /* ═══════════════════════════════════════════════════════════
-   GREENLEDGER — Enterprise SaaS Design System
+   VERDANT LEDGER — Enterprise SaaS Design System
    Dark Climate-Tech Theme · Focused on Readability & Trust
 ═══════════════════════════════════════════════════════════ */
 
 @theme {
   /* ── Backgrounds ── */
   --color-bg-void:        #080c14;
-  --color-bg-panel:       #111827; /* gray-900 */
-  --color-bg-panel-alt:   #1f2937; /* gray-800 */
+  --color-bg-panel:       rgba(17, 24, 39, 0.45);
+  --color-bg-panel-alt:   rgba(31, 41, 55, 0.45);
 
   /* ── Accents ── */
   --color-mint:           #10b981; /* emerald-500 */
@@ -118,34 +118,36 @@ footer,
    ENTERPRISE SAAS CARDS & PANELS (Opaque & Crisp Readability)
 ═══════════════════════════════════════════════════════════ */
 .liquid-glass {
-  background: rgba(17, 24, 39, 0.95);
-  backdrop-filter: blur(12px);
-  -webkit-backdrop-filter: blur(12px);
+  background: rgba(17, 24, 39, 0.45);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
   border: 1px solid var(--border-hairline);
   border-radius: var(--radius-md);
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.4);
 }
 
 .liquid-glass-strong {
-  background: rgba(15, 21, 33, 0.97);
-  backdrop-filter: blur(16px);
-  -webkit-backdrop-filter: blur(16px);
+  background: rgba(15, 21, 33, 0.45);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
   border: 1px solid var(--border-hairline-lg);
   border-radius: var(--radius-lg);
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
 }
 
 .card {
-  background: rgba(17, 24, 39, 0.95);
-  backdrop-filter: blur(12px);
-  -webkit-backdrop-filter: blur(12px);
+  background: rgba(17, 24, 39, 0.45);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
   border: 1px solid var(--border-hairline);
   border-radius: var(--radius-md);
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.35);
 }
 
 .card-alt {
-  background: rgba(31, 41, 55, 0.90);
+  background: rgba(31, 41, 55, 0.45);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
   border: 1px solid var(--border-hairline);
   border-radius: var(--radius-md);
 }
@@ -172,9 +174,9 @@ footer,
    NAVIGATION HEADER
 ═══════════════════════════════════════════════════════════ */
 .glass-nav {
-  background: rgba(8, 12, 20, 0.96);
-  backdrop-filter: blur(16px);
-  -webkit-backdrop-filter: blur(16px);
+  background: rgba(8, 12, 20, 0.45);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
   border-bottom: 1px solid var(--border-hairline);
   box-shadow: 0 2px 12px rgba(0, 0, 0, 0.5);
   position: relative;

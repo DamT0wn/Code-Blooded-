@@ -39,7 +39,7 @@ export function AppNav() {
             className="text-sm font-semibold tracking-tight"
             style={{ color: 'var(--color-text-primary)', fontFamily: 'var(--font-display)' }}
           >
-            code blooded
+            verdant ledger
           </span>
         </Link>
 
@@ -90,7 +90,7 @@ export function AppNav() {
                 className="inline-block w-1.5 h-1.5 rounded-full"
                 style={{ background: 'var(--color-mint)', animation: 'var(--animate-pulse-glow)' }}
               />
-              HACKATHON PITCH · 2026
+              VERIFIED PLATFORM · 2026
             </span>
           )}
           <Link
@@ -162,7 +162,7 @@ function AppFooter() {
         </span>
         <div className="flex items-center gap-6">
           <span className="font-mono-label" style={{ color: 'var(--color-text-tertiary)', fontSize: 10 }}>
-            CODE BLOODED PLATFORM
+            VERDANT LEDGER PLATFORM
           </span>
           <span className="font-mono-label" style={{ color: 'var(--color-text-tertiary)', fontSize: 10 }}>
             v0.1.0 · 2026
