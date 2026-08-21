@@ -1,5 +1,5 @@
 // ============================================================
-// Code Blooded — Mock Data Layer
+// Verdant Ledger — Mock Data Layer
 // /lib/mock-data.ts
 // All pages read from this module. Same IDs/scores appear
 // consistently across Marketplace and Passport pages.

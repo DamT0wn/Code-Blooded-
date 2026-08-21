@@ -1,5 +1,5 @@
 // ============================================================
-// Code Blooded — B2B Company Dashboard Data Layer
+// Verdant Ledger — B2B Company Dashboard Data Layer
 // /lib/company-data.ts
 // Supabase-ready architecture for B2B carbon management.
 // ============================================================
@@ -55,7 +55,7 @@ export const COMPANIES: Company[] = [
     name: 'EcoFuture Industries',
     industry: 'Manufacturing & Heavy Industry',
     logo: '🏭',
-    email: 'ecofuture@codeblooded.io',
+    email: 'ecofuture@verdantledger.io',
     joinedDate: '2023-01-15',
     verified: true,
     creditsPurchased: 5000,
@@ -138,7 +138,7 @@ export const COMPANIES: Company[] = [
     name: 'Greenfinity Pvt. Ltd.',
     industry: 'Technology & Cloud Infrastructure',
     logo: '💻',
-    email: 'greenfinity@codeblooded.io',
+    email: 'greenfinity@verdantledger.io',
     joinedDate: '2023-02-01',
     verified: true,
     creditsPurchased: 8400,
@@ -221,7 +221,7 @@ export const COMPANIES: Company[] = [
     name: 'TerraNova Solutions',
     industry: 'Infrastructure & Real Estate',
     logo: '🏗️',
-    email: 'terranova@codeblooded.io',
+    email: 'terranova@verdantledger.io',
     joinedDate: '2023-03-10',
     verified: true,
     creditsPurchased: 6200,
@@ -282,7 +282,7 @@ export const COMPANIES: Company[] = [
     name: 'BlueLeaf Enterprises',
     industry: 'Retail & Consumer Goods',
     logo: '🌿',
-    email: 'blueleaf@codeblooded.io',
+    email: 'blueleaf@verdantledger.io',
     joinedDate: '2023-04-05',
     verified: true,
     creditsPurchased: 4500,
@@ -343,7 +343,7 @@ export const COMPANIES: Company[] = [
     name: 'Planet Positive Co.',
     industry: 'Logistics & Global Supply Chain',
     logo: '🚚',
-    email: 'planetpositive@codeblooded.io',
+    email: 'planetpositive@verdantledger.io',
     joinedDate: '2023-02-18',
     verified: true,
     creditsPurchased: 9200,
@@ -426,7 +426,7 @@ export const COMPANIES: Company[] = [
     name: 'SustainIQ Corp.',
     industry: 'Financial Services & Investment Banking',
     logo: '🏦',
-    email: 'sustainiq@codeblooded.io',
+    email: 'sustainiq@verdantledger.io',
     joinedDate: '2023-01-20',
     verified: true,
     creditsPurchased: 7600,
@@ -487,7 +487,7 @@ export const COMPANIES: Company[] = [
     name: 'CarbonCare Pvt. Ltd.',
     industry: 'Energy & Utilities',
     logo: '⚡',
-    email: 'carboncare@codeblooded.io',
+    email: 'carboncare@verdantledger.io',
     joinedDate: '2023-03-01',
     verified: true,
     creditsPurchased: 11000,
@@ -570,7 +570,7 @@ export const COMPANIES: Company[] = [
     name: 'Verdant Capital',
     industry: 'Venture Capital & ESG Investment',
     logo: '💎',
-    email: 'verdant@codeblooded.io',
+    email: 'verdant@verdantledger.io',
     joinedDate: '2023-04-01',
     verified: true,
     creditsPurchased: 3800,

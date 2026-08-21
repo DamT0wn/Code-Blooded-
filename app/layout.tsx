@@ -24,7 +24,7 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: 'Code Blooded — Carbon Credit Trust & Verification Platform',
+  title: 'Verdant Ledger — Carbon Credit Trust & Verification Platform',
   description:
     'Verify the impact. Track the credit. Trust the carbon. A decentralized marketplace where every tonne of CO₂ carries evidence — from satellite pixel to blockchain ledger.',
   keywords: [
@@ -37,7 +37,7 @@ export const metadata: Metadata = {
     'ESG',
   ],
   openGraph: {
-    title: 'Code Blooded — Carbon Credit Trust & Verification Platform',
+    title: 'Verdant Ledger — Carbon Credit Trust & Verification Platform',
     description: 'Evidence > Trust. Trust > Trade.',
     type: 'website',
   },

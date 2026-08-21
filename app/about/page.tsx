@@ -23,7 +23,7 @@ export default function AboutPage() {
         {/* ── Page Header ── */}
         <div className="flex flex-col gap-4 max-w-3xl">
           <div className="flex items-center gap-2">
-            <MonoLabel color="mint">ABOUT GREENLEDGER / CODE BLOODED</MonoLabel>
+            <MonoLabel color="mint">ABOUT VERDANT LEDGER</MonoLabel>
             <span className="pill pill-mint text-[10px]">PLATFORM OVERVIEW</span>
           </div>
           <h1
@@ -33,7 +33,7 @@ export default function AboutPage() {
             Purpose, Working &amp; Platform Architecture
           </h1>
           <p className="text-base sm:text-lg text-gray-300 leading-relaxed">
-            Code Blooded (GreenLedger) is an enterprise-grade Carbon Credit Trust &amp; Verification Platform built to eliminate greenwashing, double-counting, and opaque claims in global carbon markets.
+            Verdant Ledger is an enterprise-grade Carbon Credit Trust &amp; Verification Platform built to eliminate greenwashing, double-counting, and opaque claims in global carbon markets.
           </p>
         </div>
 
@@ -47,7 +47,7 @@ export default function AboutPage() {
             </div>
             <h2 className="text-xl font-bold text-white">Platform Purpose</h2>
             <p className="text-sm text-gray-300 leading-relaxed">
-              Traditional carbon markets suffer from scattered documentation, double-selling, and unverified offset claims. Code Blooded bridges physical orbital evidence with blockchain ledgers—ensuring every carbon credit represents verified, permanent environmental impact.
+              Traditional carbon markets suffer from scattered documentation, double-selling, and unverified offset claims. Verdant Ledger bridges physical orbital evidence with blockchain ledgers—ensuring every carbon credit represents verified, permanent environmental impact.
             </p>
           </div>
 
@@ -80,7 +80,7 @@ export default function AboutPage() {
         <div className="card p-6 flex flex-col gap-6">
           <MonoLabel color="tertiary">PLATFORM FUNCTIONING &amp; MODULE SUMMARY</MonoLabel>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            <div className="p-5 rounded-xl bg-gray-900/90 border border-white/10 flex flex-col gap-3">
+            <div className="p-5 rounded-xl bg-gray-900/45 backdrop-blur-md border border-white/10 flex flex-col gap-3">
               <div className="flex items-center justify-between">
                 <span className="text-sm font-bold text-emerald-400">1. Verified Marketplace</span>
                 <Link href="/marketplace" className="text-xs text-emerald-400 hover:underline flex items-center gap-1">
@@ -92,7 +92,7 @@ export default function AboutPage() {
               </p>
             </div>
 
-            <div className="p-5 rounded-xl bg-gray-900/90 border border-white/10 flex flex-col gap-3">
+            <div className="p-5 rounded-xl bg-gray-900/45 backdrop-blur-md border border-white/10 flex flex-col gap-3">
               <div className="flex items-center justify-between">
                 <span className="text-sm font-bold text-cyan-400">2. Corporate B2B Dashboard</span>
                 <Link href="/dashboard" className="text-xs text-cyan-400 hover:underline flex items-center gap-1">
@@ -104,7 +104,7 @@ export default function AboutPage() {
               </p>
             </div>
 
-            <div className="p-5 rounded-xl bg-gray-900/90 border border-white/10 flex flex-col gap-3">
+            <div className="p-5 rounded-xl bg-gray-900/45 backdrop-blur-md border border-white/10 flex flex-col gap-3">
               <div className="flex items-center justify-between">
                 <span className="text-sm font-bold text-amber-400">3. Digital Carbon Passport</span>
                 <Link href="/passport/CC-IND-00291" className="text-xs text-amber-400 hover:underline flex items-center gap-1">
